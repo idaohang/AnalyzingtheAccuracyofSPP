@@ -15,7 +15,7 @@ time = 0;
 sats = [];
 NoSv = 0;
 eof = 0;
-
+year = 0;
 while 1
     
     lin = fgets(fid); % earlier fgetl

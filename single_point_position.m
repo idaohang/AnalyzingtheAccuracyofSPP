@@ -42,7 +42,7 @@ end;
 
 
 % We can define how much epochs do we want
-for q = 1:200
+for q = 1:23
     [time1, sats1, NoSv0, eof1] = fepoch_0(fid1);%NoSv0:真实的卫星数，包括G和R
     NoSv1 = size(sats1,1);
     obs1 = grabdata(fid1, NoSv1, NoObs_types1, NoSv0);
